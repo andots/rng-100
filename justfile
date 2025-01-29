@@ -7,3 +7,9 @@ default:
 # run astro dev
 webdev:
   pnpm --filter random-number-generator-web dev
+
+webbuild:
+  pnpm --filter random-number-generator-web build
+
+webpreview:
+  pnpm --filter random-number-generator-web preview

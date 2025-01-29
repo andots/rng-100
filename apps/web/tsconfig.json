@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    // "lib": ["dom"],
+    "paths": {
+      "~/*": ["./src/*"]
+      // "@researcher/ui": ["../packages/ui/src/index.ts"],
+    }
+    // "types": ["unplugin-icons/types/solid"]
+  },
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"]
+}
