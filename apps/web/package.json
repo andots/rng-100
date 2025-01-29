@@ -12,6 +12,7 @@
     "@astrojs/solid-js": "^5.0.4",
     "@astrojs/tailwind": "^5.1.5",
     "@kobalte/core": "^0.13.7",
+    "@solidjs/router": "^0.15.3",
     "astro": "^5.1.10",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
