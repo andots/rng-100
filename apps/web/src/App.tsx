@@ -5,7 +5,7 @@ import { ROUTES } from "./constants";
 
 const App: Component = () => {
   return (
-    <div>
+    <div class="flex items-center justify-center h-screen">
       <Router>
         <Route path={ROUTES.HOME} component={RandomNumber} />
       </Router>
