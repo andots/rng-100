@@ -1,6 +1,7 @@
 import antfu from "@antfu/eslint-config";
 
-export default antfu(
+/** @type {import('antfu').Config} */
+const config = antfu(
   {
     type: "app",
     stylistic: {
@@ -36,3 +37,5 @@ export default antfu(
     },
   },
 );
+
+export default config;
