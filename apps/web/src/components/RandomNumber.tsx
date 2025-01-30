@@ -1,6 +1,6 @@
 import type { Component } from "solid-js";
 
-import { Button } from "./ui/button";
+import { Button } from "@repo/ui/button";
 
 const RandomNumber: Component = () => {
   return (
