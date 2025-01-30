@@ -1,5 +1,5 @@
-import type { Component } from "solid-js";
 import { Route, Router } from "@solidjs/router";
+import type { Component } from "solid-js";
 import RandomNumber from "./components/RandomNumber";
 import { ROUTES } from "./constants";
 
