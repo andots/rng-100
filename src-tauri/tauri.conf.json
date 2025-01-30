@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "RNG100",
+  "productName": "RNG-100",
   "version": "0.1.0",
-  "identifier": "rng100",
+  "identifier": "rng-100",
   "build": {
     "frontendDist": "../target-frontend/web",
     "devUrl": "http://localhost:1420",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "RNG100",
+        "title": "RNG-100",
         "width": 220,
         "height": 220,
         "minHeight": 220,
