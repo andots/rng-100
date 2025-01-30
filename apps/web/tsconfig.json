@@ -1,9 +1,6 @@
 {
-  "extends": "../../tsconfig.options.json",
+  "extends": "@repo/typescript-config/solidjs.json",
   "compilerOptions": {
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    // "lib": ["dom"],
     "paths": {
       "~/*": ["./src/*"]
       // "@researcher/ui": ["../packages/ui/src/index.ts"],

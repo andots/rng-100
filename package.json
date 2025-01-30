@@ -7,6 +7,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "turbo": "^2.3.4"
+    "turbo": "^2.3.4",
+    "vite": "^6.0.11",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }
