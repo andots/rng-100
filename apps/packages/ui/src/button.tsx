@@ -25,6 +25,7 @@ const buttonVariants = cva(
         sm: "h-9 px-3 text-xs",
         lg: "h-11 px-8",
         icon: "size-10",
+        extraLarge: "h-[260px] w-[260px] px-10 text-9xl font-bold",
       },
     },
     defaultVariants: {
