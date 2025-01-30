@@ -18,10 +18,10 @@ webbuild:
 
 # run astro dev
 pnpm-webdev:
-  pnpm --filter random-number-generator-web dev
+  pnpm --filter rng-100-web dev
 
 pnpm-webbuild:
-  pnpm --filter random-number-generator-web build
+  pnpm --filter rng-100-web build
 
 pnpm-webpreview:
-  pnpm --filter random-number-generator-web preview
+  pnpm --filter rng-100-web preview

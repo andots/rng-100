@@ -1,5 +1,5 @@
 [package]
-name = "random-number-generator"
+name = "rng-100"
 version.workspace = true
 authors.workspace = true
 edition.workspace = true
