@@ -98,7 +98,17 @@ export default {
         "caret-blink": "caret-blink 1.25s ease-out infinite",
       },
       fontFamily: {
-        sans: ["Inter", ...fontFamily.sans],
+        sans: [
+          "Geist Sans",
+          "Helvetica Neue",
+          "Helvetica",
+          "Hiragino Sans",
+          "Hiragino Kaku Gothic ProN",
+          "Arial",
+          "Yu Gothic",
+          "Meiryo",
+          ...fontFamily.sans,
+        ],
       },
     },
   },

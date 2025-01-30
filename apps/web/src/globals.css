@@ -88,7 +88,7 @@
 }
 
 @layer base {
-  /* @font-face {
+  @font-face {
     font-family: "Geist Sans";
     src: url("/fonts/Geist.woff2") format("woff2");
     font-display: swap;
@@ -97,7 +97,7 @@
     font-family: "Geist Mono";
     src: url("/fonts/GeistMono.woff2") format("woff2");
     font-display: swap;
-  } */
+  }
 
   * {
     @apply border-border;

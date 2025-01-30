@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
     "@astrojs/solid-js": "^5.0.4",
     "@astrojs/tailwind": "^5.1.5",
     "@fontsource/inter": "^5.1.1",
+    "@repo/ui": "workspace:*",
     "@solidjs/router": "^0.15.3",
     "astro": "^5.1.10",
     "clsx": "^2.1.1",

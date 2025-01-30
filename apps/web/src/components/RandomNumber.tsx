@@ -16,6 +16,14 @@ const RandomNumber: Component = () => {
           </SwitchControl>
           <SwitchLabel>Airplane Mode</SwitchLabel>
         </Switch>
+        <div class="mt-5">
+          <Switch class="flex items-center space-x-2">
+            <SwitchControl>
+              <SwitchThumb />
+            </SwitchControl>
+            <SwitchLabel class="font-bold">日本語</SwitchLabel>
+          </Switch>
+        </div>
       </div>
     </div>
   );
