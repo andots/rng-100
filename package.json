@@ -5,7 +5,8 @@
   "packageManager": "pnpm@10.1.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "turbo": "turbo"
+    "turbo": "turbo",
+    "tauri": "tauri"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",

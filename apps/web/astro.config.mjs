@@ -13,6 +13,8 @@ export default defineConfig({
     // using the tsconfig-paths vite plugin to resolve paths in tsconfig.json
     plugins: [tsconfigPaths()],
   },
+  outDir: "../../target-frontend/web",
+  devToolbar: { enabled: false },
   // Vite options tailored for Tauri development and only applied in `tauri dev` or `tauri build`
   // 1. prevent vite from obscuring rust errors
   clearScreen: false,

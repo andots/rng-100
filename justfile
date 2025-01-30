@@ -4,6 +4,12 @@ set windows-shell := ["cmd.exe", "/c"]
 default:
   just --list --unsorted
 
+tauri-dev:
+  pnpm run tauri dev
+
+tauri-build:
+  pnpm run tauri build
+
 webdev:
   pnpm run turbo dev
 

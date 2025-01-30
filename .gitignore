@@ -25,3 +25,7 @@ pnpm-debug.log*
 
 # Turborepo
 .turbo
+
+# Rust target
+target/
+target-frontend/
