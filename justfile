@@ -4,12 +4,15 @@ set windows-shell := ["cmd.exe", "/c"]
 default:
   just --list --unsorted
 
+build:
+  pnpm run turbo build
+
 # run astro dev
-webdev:
+pnpm-webdev:
   pnpm --filter random-number-generator-web dev
 
-webbuild:
+pnpm-webbuild:
   pnpm --filter random-number-generator-web build
 
-webpreview:
+pnpm-webpreview:
   pnpm --filter random-number-generator-web preview
