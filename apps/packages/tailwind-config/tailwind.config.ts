@@ -2,7 +2,6 @@ import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   darkMode: ["variant", [".dark &", '[data-kb-theme="dark"] &']],
-  prefix: "",
   theme: {
     container: {
       center: true,
