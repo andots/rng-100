@@ -4,7 +4,10 @@ set windows-shell := ["cmd.exe", "/c"]
 default:
   just --list --unsorted
 
-build:
+webdev:
+  pnpm run turbo dev
+
+webbuild:
   pnpm run turbo build
 
 # run astro dev

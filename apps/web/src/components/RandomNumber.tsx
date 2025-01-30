@@ -14,7 +14,7 @@ const RandomNumber: Component = () => {
           <SwitchControl>
             <SwitchThumb />
           </SwitchControl>
-          <SwitchLabel>Airplane Mode</SwitchLabel>
+          <SwitchLabel>Randomizer</SwitchLabel>
         </Switch>
         <div class="mt-5">
           <Switch class="flex items-center space-x-2">
