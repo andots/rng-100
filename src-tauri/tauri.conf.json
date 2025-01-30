@@ -13,8 +13,10 @@
     "windows": [
       {
         "title": "random-number-generator",
-        "width": 200,
-        "height": 200,
+        "width": 220,
+        "height": 220,
+        "minHeight": 220,
+        "minWidth": 220,
         "resizable": true,
         "fullscreen": false
       }

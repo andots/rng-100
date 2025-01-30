@@ -8,18 +8,19 @@ const RandomNumber: Component = () => {
   const randomNumber = useAppSate((state) => state.generatedNumber);
   const generate = useAppSate((state) => state.generateRandomNumber);
   const toggleTheme = useAppSate((state) => state.toggleTheme);
+  const theme = useAppSate((state) => state.theme);
 
   return (
-    <div class="flex flex-col items-center space-y-5">
+    <div class="flex flex-col items-center space-y-2">
       <Button onClick={generate} variant="ghost" size="extraLarge">
         {randomNumber()}
       </Button>
-      <div class="mt-5">
+      <div>
         <Switch class="flex items-center space-x-2">
           <SwitchControl onClick={toggleTheme}>
             <SwitchThumb />
           </SwitchControl>
-          <SwitchLabel>Theme</SwitchLabel>
+          <SwitchLabel class="capitalize">{theme()} theme</SwitchLabel>
         </Switch>
       </div>
     </div>
