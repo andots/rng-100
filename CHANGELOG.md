@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/andots/rng-100/compare/v0.2.1...v0.2.2) (2025-01-31)
+
+
+### Bug Fixes
+
+* use pnpm not just for github workflow ([ac0ef62](https://github.com/andots/rng-100/commit/ac0ef6208aeecfee99a686f3527a84f658b506b9))
+
 ## [0.2.1](https://github.com/andots/rng-100/compare/v0.2.0...v0.2.1) (2025-01-31)
 
 # 0.2.0 (2025-01-31)
