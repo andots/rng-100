@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/andots/rng-100/compare/v0.2.3...v0.2.4) (2025-01-31)
+
+
+### Bug Fixes
+
+* tauri bundle to active and all ([b973428](https://github.com/andots/rng-100/commit/b973428effcafd385b5babe222d4169a5d200034))
+
 ## [0.2.3](https://github.com/andots/rng-100/compare/v0.2.2...v0.2.3) (2025-01-31)
 
 
