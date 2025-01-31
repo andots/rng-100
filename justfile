@@ -16,6 +16,9 @@ webdev:
 webbuild:
   pnpm run turbo build
 
+release:
+  pnpm run release
+
 # run astro dev
 pnpm-webdev:
   pnpm --filter rng-100-web dev
