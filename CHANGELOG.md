@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/andots/rng-100/compare/v0.2.2...v0.2.3) (2025-01-31)
+
+
+### Bug Fixes
+
+* use tauri-action v0.5 ([dcddb60](https://github.com/andots/rng-100/commit/dcddb609994c6e55b707c048638751b4d4914731))
+
 ## [0.2.2](https://github.com/andots/rng-100/compare/v0.2.1...v0.2.2) (2025-01-31)
 
 
