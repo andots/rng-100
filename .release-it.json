@@ -7,7 +7,7 @@
     "@j-ulrich/release-it-regex-bumper": {
       "in": "package.json",
       "out": {
-        "file": "src-tauri/Cargo.toml",
+        "file": "Cargo.toml",
         "search": "version = \"([0-9.]+)\"",
         "replace": "version = \"{{version}}\""
       }
@@ -24,7 +24,7 @@
     "publish": false
   },
   "hooks": {
-    "after:@j-ulrich/release-it-regex-bumper:bump": "cd src-tauri && cargo check"
+    "after:@j-ulrich/release-it-regex-bumper:bump": "cargo check"
   },
   "github": {
     "release": false

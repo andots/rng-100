@@ -19,6 +19,9 @@ webbuild:
 release:
   pnpm run release
 
+release-dry-run:
+  pnpm run release --dry-run
+
 # run astro dev
 pnpm-webdev:
   pnpm --filter rng-100-web dev
