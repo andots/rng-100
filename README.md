@@ -25,4 +25,8 @@ just tauri-build
 just webdev
 # build only frontend
 just webbuild
+# release application (use git-bash on Windows)
+just release
+# or dry-run
+just release-dry-run
 ```
