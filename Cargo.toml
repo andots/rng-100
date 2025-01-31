@@ -3,7 +3,7 @@ resolver = "3"
 members = ["src-tauri"]
 
 [workspace.package]
-version = "0.2.0"
+version = "0.2.1"
 authors = ["andots"]
 edition = "2021"
 rust-version = "1.84.0"
