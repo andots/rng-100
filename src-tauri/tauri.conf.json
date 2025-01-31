@@ -5,8 +5,8 @@
   "build": {
     "frontendDist": "../target-frontend/web",
     "devUrl": "http://localhost:1420",
-    "beforeDevCommand": "just webdev",
-    "beforeBuildCommand": "just webbuild"
+    "beforeDevCommand": "pnpm run turbo dev",
+    "beforeBuildCommand": "pnpm run turbo build"
   },
   "app": {
     "windows": [
