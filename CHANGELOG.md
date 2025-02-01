@@ -1,5 +1,18 @@
 # Changelog
 
+# [0.3.0](https://github.com/andots/rng-100/compare/v0.2.4...v0.3.0) (2025-02-01)
+
+
+### Bug Fixes
+
+* update title ([47812ac](https://github.com/andots/rng-100/commit/47812acbe7b9888285aa4b9210dacdc55c4f0c2f))
+
+
+### Features
+
+* create an initial webview in rust ([428be01](https://github.com/andots/rng-100/commit/428be01a5405faa4da08e2e2752d755570125902))
+* set window title with version ([f7263e4](https://github.com/andots/rng-100/commit/f7263e439f506d803913ce13128f39aed07c93ad))
+
 ## [0.2.4](https://github.com/andots/rng-100/compare/v0.2.3...v0.2.4) (2025-01-31)
 
 
