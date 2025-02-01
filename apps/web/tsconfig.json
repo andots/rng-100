@@ -3,7 +3,6 @@
   "compilerOptions": {
     "paths": {
       "~/*": ["./src/*"]
-      // "@researcher/ui": ["../packages/ui/src/index.ts"],
     }
     // "types": ["unplugin-icons/types/solid"]
   },
