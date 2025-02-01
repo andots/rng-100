@@ -9,17 +9,6 @@
     "beforeBuildCommand": "pnpm run turbo build"
   },
   "app": {
-    "windows": [
-      {
-        "title": "RNG-100",
-        "width": 220,
-        "height": 220,
-        "minHeight": 220,
-        "minWidth": 220,
-        "resizable": true,
-        "fullscreen": false
-      }
-    ],
     "security": {
       "csp": null
     }
