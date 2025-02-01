@@ -1,3 +1,7 @@
+use tauri::Manager;
+
+mod commands;
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
   tauri::Builder::default()
@@ -9,8 +13,12 @@ pub fn run() {
             .build(),
         )?;
       }
+      let title = commands::get_default_app_title(app.handle().clone());
+      let window = app.get_webview_window("main").unwrap();
+      window.set_title(&title)?;
       Ok(())
     })
+    .invoke_handler(tauri::generate_handler![commands::get_default_app_title])
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
 }
