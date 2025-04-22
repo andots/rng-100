@@ -2,7 +2,7 @@
   "name": "rng-100",
   "type": "module",
   "version": "0.3.0",
-  "packageManager": "pnpm@10.1.0",
+  "packageManager": "pnpm@10.8.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "turbo": "turbo",
