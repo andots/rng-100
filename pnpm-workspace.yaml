@@ -1,3 +1,9 @@
 packages:
-  - "apps/packages/*"
-  - "apps/web"
+  - apps/packages/*
+  - apps/web
+
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+  - core-js-pure
+  - esbuild
+  - sharp
